@@ -1,92 +1,112 @@
-[![Version](https://img.shields.io/badge/version-7.0-blue)]()  
-[![License](https://img.shields.io/badge/root-abrzi-green)]()  
-[![License](https://img.shields.io/badge/-⭐⭐⭐⭐-pink)]()
+# Instagram Report Bot 🤖
 
-<p align="center"><img src="logo.png" width="150px" height="150px" alt="insta logo"></p>
+![GitHub Repo Size](https://img.shields.io/github/repo-size/kevinmirama/Instagram-Report-bot)
+![GitHub Issues](https://img.shields.io/github/issues/kevinmirama/Instagram-Report-bot)
+![GitHub Stars](https://img.shields.io/github/stars/kevinmirama/Instagram-Report-bot)
+![GitHub License](https://img.shields.io/github/license/kevinmirama/Instagram-Report-bot)
 
-    
-<h1 align="center">INSTAGRAM REPORT BOT</h1>
+Welcome to the **Instagram Report Bot** repository! This tool automates the process of reporting Instagram accounts. It allows users to mass report accounts efficiently, making it a valuable resource for community management and moderation.
 
+## Table of Contents
 
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-<p align="center">REPORT ANY INSTAGRAM ACCOUNT.</p>
+## Features
 
-<p align="right">
-  <img src="https://files.catbox.moe/fu74ny.png" width="250"
-</p>
+- **Mass Reporting**: Quickly report multiple accounts with a single command.
+- **Automation**: Set up the bot to run automatically, saving you time and effort.
+- **User-Friendly Interface**: Easy to use, even for those unfamiliar with coding.
+- **Customizable Options**: Adjust settings to fit your reporting needs.
+- **Logs and Reports**: Keep track of reports submitted and their statuses.
 
+## Installation
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+To get started, you need to download the latest release of the Instagram Report Bot. You can find it [here](https://github.com/kevinmirama/Instagram-Report-bot/releases). Download the appropriate file for your operating system and follow the instructions below:
 
-## 📸 **Tool in Action**  
+1. **Download the Release**: Click on the link above and choose the file for your OS.
+2. **Extract the Files**: Unzip the downloaded file to your preferred directory.
+3. **Install Dependencies**: Open your terminal and navigate to the extracted folder. Run the following command to install the necessary dependencies:
 
-Below is an example showcasing the tool’s powerful reporting capabilities, sending 2800 reports from a single account:  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-![Screenshot Example](https://files.catbox.moe/qqit9p.png)  
+4. **Run the Bot**: Execute the bot with the command:
 
- 
+   ```bash
+   python main.py
+   ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+## Usage
 
-## 📺 **Video Demonstration**  
+Once you have installed the bot, you can start using it right away. Here’s how:
 
-Watch a the bo-t in action on YouTube:  
-[![YouTube Video](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://youtu.be/4inWwqisKEM?si=-tHbesm2d1FdfRjn)  
+1. **Configuration**: Open the `config.json` file in your text editor. Here, you can set your Instagram credentials and reporting preferences.
+   
+   ```json
+   {
+       "username": "your_username",
+       "password": "your_password",
+       "accounts_to_report": [
+           "account1",
+           "account2",
+           "account3"
+       ]
+   }
+   ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+2. **Start the Bot**: After configuring the settings, run the bot again using the command mentioned earlier.
 
-## 🌟 **Features**  
+3. **Monitor Reports**: The bot will start reporting the specified accounts. You can monitor the progress in the terminal.
 
-- **Multi-Account Support**: Manage and operate multiple Instagram accounts simultaneously.  
-- **Multi-Target System**: Rep-ort mul-tiple users or content in bulk with precision.  
-- **Advanced Automation**: Leveraging threaded programming for seamless operation.  
-- **Telegram Integration**: Operate and monitor the bot directly from Telegram.  
-- **Bypass Anti-Spam Mechanisms**: Ensures smooth reporting without interruptions.  
-- **Bulk Reporting Capability**: Submit up to **500 reports per account** effortlessly.  
-- **Comprehensive Repo-rting Options**: Target profiles, stories, reels, posts, and highlights.  
+4. **Check Logs**: Review the `logs.txt` file for a summary of actions taken by the bot.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+## Contributing
 
+We welcome contributions from the community! If you would like to help improve the Instagram Report Bot, please follow these steps:
 
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
+2. **Create a New Branch**: Use the following command to create a new branch:
 
-## 📊 **Supported Repo-rt Types**  
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
 
-- **Sp-am**  
-- **Self-Ha-rm**  
-- **H-at-e Sp-eec-h**  
-- **Vi-olen-ce**  
-- **Dr-u-gs and Subst-ance A-buse**  
-- **Nudi-ty**  
-- **Bul-ly-ing**  
+3. **Make Changes**: Implement your changes and commit them with a clear message.
 
+   ```bash
+   git commit -m "Add your message here"
+   ```
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+4. **Push Changes**: Push your changes to your forked repository.
 
-## ⚡ to get the bo/t 💸
-to get the pr-ogram:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
 
-- **Join our Teleggram Channel**:  
-  [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-blue)](https://t.me/rootabrzibots)
+5. **Open a Pull Request**: Go to the original repository and click on "New Pull Request."
 
-- **Contact Support**:  
-  [![Contact Support](https://img.shields.io/badge/Contact-Support-green)](https://t.me/abrzi505)
+## License
 
-- **Telegram Contact**:  
-  [![Telegram Contact](https://img.shields.io/badge/Telegram-Contact-blue)](https://t.me/abrzi505)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+## Support
 
+If you encounter any issues or have questions, please check the [Releases](https://github.com/kevinmirama/Instagram-Report-bot/releases) section for updates. You can also open an issue in the repository.
 
+## Additional Resources
 
+- [Instagram API Documentation](https://developers.facebook.com/docs/instagram-api)
+- [Python Documentation](https://docs.python.org/3/)
+- [Requests Library Documentation](https://docs.python-requests.org/en/latest/)
 
+## Conclusion
 
+The Instagram Report Bot offers a streamlined solution for mass reporting accounts on Instagram. With its automation features and user-friendly interface, you can manage reports effectively. Download the latest version [here](https://github.com/kevinmirama/Instagram-Report-bot/releases) and start using the bot today!
 
-> [!CAUTION]
-> ```This tool is created for EDUCATIONAL PURPOSES ONLY. The creator is not responsible for any damage or misuse of this tool.```
-> 
-
-**Legal Notice**
-
-```console
-I am not responsible for your actions.
-```
+Feel free to explore the code, suggest improvements, and contribute to this project. Together, we can make Instagram a safer space for everyone.
